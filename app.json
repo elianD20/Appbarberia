@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.eliand20.barberiaapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -27,6 +28,12 @@
     "plugins": [
       "expo-build-properties",
       "expo-localization"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0ac7bf25-7b5f-404e-9b3a-82d24e42a462"
+      }
+    },
+    "owner": "eliand20"
   }
 }
